@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@source "../dist/";
+
+@theme {
+  --main-color: #3490dc;
+  --background-color: #252525;
+}
