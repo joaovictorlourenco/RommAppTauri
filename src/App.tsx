@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import "./App.css";
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         <div className="bg-white p-10 rounded shadow">Jogo 3</div>
         <div className="bg-white p-10 rounded shadow">Jogo 4</div>
         <div className="bg-white p-10 rounded shadow">Jogo 5</div>
+        <NavLink to="/home" className="bg-white p-10 rounded shadow">
+          Home
+        </NavLink>
       </div>
     </body>
   );
