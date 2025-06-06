@@ -33,7 +33,7 @@ export const Header = () => {
 
   return (
     <header
-      className="flex items-center justify-between h-9 bg-gray-600 text-white select-none border-gray-200 border-b"
+      className="flex items-center justify-between h-9 bg-gray-800 text-white select-none border-gray-200 border-b"
       data-tauri-drag-region
     >
       {/* Logo/Title */}

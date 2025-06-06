@@ -13,7 +13,7 @@ export default function Sidebar({ className = "" }: SidebarProps) {
 
   return (
     <aside
-      className={`hidden lg:flex lg:flex-col w-64 h-screen bg-background border-r border-gray-200 ${className}`}
+      className={`hidden lg:flex lg:flex-col w-64 h-full bg-background border-r border-gray-200 ${className}`}
     >
       {/* Header do Sidebar */}
       <div className="flex-shrink-0 p-4 border-b border-gray-200">
